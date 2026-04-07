@@ -1,0 +1,3 @@
+my team **Goroutines** came up our own style or method, using that i built a Go program called **Operation Gopher Protocol** to help clean up messy field reports. Basically, you just run a quick command (`go run main.go input.txt output.txt`), and it automatically fixes the file for you. 
+
+It does a few key things: it trims extra spaces, deletes empty or dashed lines, and swaps out words like `todo:` for `✦ ACTION:` and `classified:` for `[REDACTED]:`. It also has a cool feature where it reverses the word order if it sees the word `REVERSE`. Finally, it adds a professional header and numbers every line (like `001.`, `002.`). When it's finished, it gives you a quick summary in the terminal so you know exactly how many lines were processed or removed.
